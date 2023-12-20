@@ -2323,16 +2323,6 @@ header.header {
   }
 }
 
-.footer-inner .vendors-list a:nth-child(2) img {
-  width: 43px;
-}
-
-@media (max-width: 767px) {
-  .footer-inner .vendors-list a:nth-child(2) img {
-    width: 33px;
-  }
-}
-
 .use-motion .footer {
   opacity: 0;
 }
@@ -2361,12 +2351,6 @@ header.header {
   display: inline-block;
   margin: 0 5px;
   animation: beat 1.33s ease-in-out infinite;
-}
-
-.beian img {
-  display: inline-block;
-  margin: 0 3px;
-  vertical-align: middle;
 }
 
 /*

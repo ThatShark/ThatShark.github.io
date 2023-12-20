@@ -391,28 +391,20 @@ params:
 
   # 文章底部設定
   postFooter:
-    # 通過线条將文章和捐赠等訊息隔開，并在线条上添加提示訊息
-    # Use line to separate post and reward etc other information
-    # and add tip title on line.
-    endLineTip: "~ 我可是有底线的哟 ~"
+    # 通過線條將文章和捐贈等訊息隔開，并在線條上添加提示訊息
+    endLineTip: "~ 我可是有底線的哟 ~"
     # 是否使用小圖標，默認使用 # 符號表示標籤
-    # Use icon instead of the symbol # to indicate the tag
     tagIcon: true
 
-  # 捐赠訊息設定
-  # Donate (Sponsor) settings.
+  # 捐贈訊息設定
   rewardSets:
-    # 是否開啟捐赠按鈕，開啟后將在每个文章頁面底部顯示
-    # If true, a donate button will be displayed 
-    # in every article by default.
-    enable: true
-    # 是否開啟捐赠方式的動畫效果
-    # If true, the donate type title will with animation.
+    # 是否開啟捐贈按鈕，開啟后將在每个文章頁面底部顯示
+    enable: false
+    # 是否開啟捐贈方式的動畫效果
     animation: true
-    # 捐赠訊息的描述，支持 HTML 語法
-    # Comment for donate and suppport HTML syntax
+    # 捐贈訊息的描述，支持 HTML 語法
     comment: '<i class="fa-solid fa-mug-hot"></i>請我喝杯咖啡吧 ヾ(^▽^*)))'
-    # 捐赠方式
+    # 捐贈方式
     # 用例： `名稱:圖像地址`
     # Donate type
     # Usage: `name:image url`
@@ -422,17 +414,15 @@ params:
       #paypal: /images/paypal.png
       #bitcoin: /images/bitcoin.png
 
-  # 提供其它订阅網站文章的方式
+  # 提供其它訂閱網站文章的方式
   # 用例： `key: 名稱 || 連結（圖像地址）|| icon名稱`
-  # Subscribe through Telegram Channel, Twitter, etc.
-  # Usage: `Key: name || permalink || icon` (Font Awesome)
   followMe:
     #channel0: Twitter || https://twitter.com/username || fab fa-twitter
     #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
     channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
     channel3: RSS || /atom.xml || fa fa-rss
 
-  # 文章的在线编辑
+  # 文章的在線编辑
   # Post edit
   # Easily browse and edit blog source code online.
   postEdit:
@@ -440,20 +430,16 @@ params:
     url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
-  # 設定文本的對齐方式
-  # Set the text alignment in posts / pages.
+  # 設定文本的對齊方式
   textAlign:
     # 可選值： start | end | left | right | center | justify | justify-all | match-parent
-    # Available values: start | end | left | right | center | justify | justify-all | match-parent
     desktop: justify
     mobile: justify
 
-  # 在手机端顯示减少填充和邊距
-  # Reduce padding / margin indents on devices with narrow width.
+  # 在手機端顯示减少padding和margin
   mobileLayoutEconomy: true
 
   # 頂部面板在不同模式下的顏色
-  # Browser header panel color.
   themeColor:
     light: "#222"
     dark: "#222"
@@ -489,25 +475,25 @@ params:
     # Scroll percent label in b2t button.
     scrollpercent: true
 
-  # 读取進度条設定
+  # 读取進度條設定
   # Reading progress bar
   readingProgress:
-    # 是否顯示读取進度条
+    # 是否顯示读取進度條
     # If true, will display the read progress bar.
     enable: true
-    # 進度条開始位置： left | right
+    # 進度條開始位置： left | right
     # Available values: left | right
     start: left
-    # 進度条顯示位置： top | bottom
+    # 進度條顯示位置： top | bottom
     # Available values: top | bottom
     position: top
     # 是否反向顯示進度
     # If true, the read progress will be reversed.
     reversed: false
-    # 用16進制設定進度条顏色
+    # 用16進制設定進度條顏色
     # Change the color of progress bar, using Hex Code.
     color: "#37c6c0"
-    # 進度条的高度
+    # 進度條的高度
     # Hight of the read progress bar.
     height: 3px
 
@@ -891,7 +877,7 @@ params:
 
 
   # ---------------------------------------------------------------
-  # 在线聊天服务
+  # 在線聊天服务
   # Chat Services
   # ---------------------------------------------------------------
 
