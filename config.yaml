@@ -452,13 +452,13 @@ params:
     # Present the scrollbar even if the content is not overflowing.
     stable: true
 
-  # 程式块的設定
+  # 程式塊的設定
   # Codeblock settings
   codeblock:    
     # 支持樣式類型： default | flat | mac
     # Available values: default | flat | mac
     style: mac
-    # 在程式块上添加拷貝按鈕
+    # 在程式塊上添加拷貝按鈕
     # Add copy button on codeblock
     copyBtn: true
 
