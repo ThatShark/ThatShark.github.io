@@ -283,16 +283,12 @@ params:
 
   # 友情連結網址
   # 用法： `Key: 顯示名稱 || 連結網址`
-  # Links of your friends
-  # Usage: `Key: name || permalink`
   links: 
     link0: Hyno's Blog || https://chaoray.github.io/
     link1: 高中筆記網站 || https://chaoray.github.io/SeniorHigh-Note-Website/
     link2: MaoHuPi's Web Tool || https://maohupi.github.io/
 
   # 文章目錄顯示
-  # Table of Contents in the Sidebar
-  # Front-matter variable (nonsupport wrap expand_all).
   toc:
     enable: true
     # 自動設定列表的數字
