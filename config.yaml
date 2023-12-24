@@ -288,7 +288,7 @@ params:
   links: 
     link0: Hyno's Blog || https://chaoray.github.io/
     link1: 高中筆記網站 || https://chaoray.github.io/SeniorHigh-Note-Website/
-    link2: MaoHuPi｜貓虎皮個人網站 || https://maohupi.riarock.com/
+    link2: MaoHuPi's Web Tool || https://maohupi.github.io/
 
   # 文章目錄顯示
   # Table of Contents in the Sidebar
@@ -401,13 +401,11 @@ params:
     # 是否開啟捐贈按鈕，開啟后將在每个文章頁面底部顯示
     enable: false
     # 是否開啟捐贈方式的動畫效果
-    animation: true
+    animation: false
     # 捐贈訊息的描述，支持 HTML 語法
     comment: '<i class="fa-solid fa-mug-hot"></i>請我喝杯咖啡吧 ヾ(^▽^*)))'
     # 捐贈方式
     # 用例： `名稱:圖像地址`
-    # Donate type
-    # Usage: `name:image url`
     reward:
       wechatpay: /imgs/wechat-pay.png
       alipay: /imgs/ali-pay.png

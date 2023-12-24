@@ -3143,11 +3143,6 @@ header.header {
   display: block;
 }
 
-.post-reward .post-reward-item:hover span {
-  animation: next-roll .1s infinite linear;
-  pointer-events: none;
-}
-
 .post-reward img {
   display: inline-block;
   margin: .8em 1.2em;
