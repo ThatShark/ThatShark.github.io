@@ -377,12 +377,12 @@ params:
     # 是否開啟評論數顯示
     comments: 
       enable: false
-      # 評論统計擴充程式，暂時只支持waline
+      # 評論統計擴充程式，暫時只支持waline
       plugin: waline
     # 是否開啟頁面訪問數顯示
     views:
       enable: false
-      # 頁面訪問统計擴充程式，支持busuanzi, waline, leancloud
+      # 頁面訪問統計擴充程式，支持busuanzi, waline, leancloud
       plugin: busuanzi
 
   # 文章底部設定
@@ -394,7 +394,7 @@ params:
 
   # 捐贈訊息設定
   rewardSets:
-    # 是否開啟捐贈按鈕，開啟后將在每个文章頁面底部顯示
+    # 是否開啟捐贈按鈕，開啟后將在每個文章頁面底部顯示
     enable: false
     # 是否開啟捐贈方式的動畫效果
     animation: false
@@ -557,43 +557,35 @@ params:
   # ---------------------------------------------------------------
 
   # 给所有外部連結添加新標籤打開
-  # Automatically add `target='_blank'` attribute in external URL.
   exturl: 
     enable: true
     # 给所有外部連結加上圖標
-    # If true, an icon will be attached to each external URL
     icon: true
 
-  # 谷歌網站验证
-  # Google Webmaster tools verification.
+  # Google網站驗証
   # See: https://developers.google.com/search
   googleSiteVerification: #<verify_code>
 
-  # 微软 Bing 站验证
-  # Bing Webmaster tools verification.
+  # 微軟 Bing 站驗証
   # See: https://www.bing.com/webmasters
   bingSiteVerification: #<verify_code>
 
-  # Yandex 網站验证
-  # Yandex Webmaster tools verification.
+  # Yandex 網站驗証
   # See: https://webmaster.yandex.ru
   yandexSiteVerification: #<verify_code>
 
-  # 百度網站验证
-  # Baidu Webmaster tools verification.
+  # 百度網站驗証.
   # See: https://ziyuan.baidu.com/site
   baiduSiteVerification: #<verify_code>
 
 
   # ---------------------------------------------------------------
-  # 第三方擴充程式和服务設定
+  # 第三方擴充程式和服務設定
   # Third Party Plugins & Services Settings
   # ---------------------------------------------------------------
 
-  # 數学公式渲染支持，可選值： mathjax, katex
-  # 注意这里全局配置，意味着所有頁面都會加载數学公式脚本
-  # Math Formulas Render Support, options: mathjax, katex
-  # Warning: It's global settings then will load scripts in every page.
+  # 數學公式渲染支持，可選值： mathjax, katex
+  # 注意這里全局配置，意味著所有頁面都會加載數學公式腳本
   #math: mathjax
 
   # TODO
@@ -635,29 +627,22 @@ params:
 
   # ---------------------------------------------------------------
   # 評論功能設定
-  # Comments Settings
   # ---------------------------------------------------------------
 
-  # 評論组件設定，最多支持2个顯示
-  # Multiple Comment System Support
+  # 評論组件設定，最多支持2個顯示
   comments:
     # 開啟評論组件
-    # If true, will show comment component in post end.
     enable: false   
     # 設定默認使用的評論擴充程式
     # 可選值：livere | waline | utterances | artalk | giscus
-    # Choose a comment system to be displayed by default.
-    # Available values: livere | waline | utterances | artalk | giscus 
     active: giscus
-    # 讓用戶自己選择使用評論擴充程式留言
-    # 如果設定為 false，將采用 active 参數的那个擴充程式
-    # Setting `true` means remembering the comment system selected by 
-    # the visitor, otherwise use the `active` setting comment system.
+    # 讓用戶自己選擇使用評論擴充程式留言
+    # 如果設定為 false，將采用 active 参數的那個擴充程式
     storage: true
     # TODO
     # Lazyload all comment systems.
     # lazyload: false
-    # 設定你要顯示的2个評論擴充程式，`weight` 數字越小越靠前
+    # 設定你要顯示的2個評論擴充程式，`weight` 數字越小越靠前
     # `name` 参數名可選值：livere | waline | utterances | artalk | giscus
     # Modify texts or order for any naves, here are some examples.
     nav:
@@ -672,27 +657,23 @@ params:
 
   # Waline 評論擴充程式
   # 更多配置訊息請参考：https://waline.js.org/
-  # Waline comments system
-  # More info seee: https://waline.js.org/
   waline:
-    placeholder: "請文明发言哟 ヾ(≧▽≦*)o"
-    sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
+    placeholder: "請文明發言哟 ヾ(≧▽≦*)o"
+    sofa: "快来發表你的意見吧 (≧∀≦)ゞ"
     emoji: false
     imgUploader: false
     wordLimit: 200
     requiredMeta: ['nick', 'mail']
     reaction: true
-    reactionText: [ '點赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-    reactionTitle: "你認為这篇文章怎么樣？"
+    reactionText: [ '點讚', '踩一下', '得意', '不屑', '尷尬', '睡覺']
+    reactionTitle: "你認為這篇文章怎麼樣？"
     serverURL: #<your waline server url>
 
   # Artalk 評論擴充程式
   # 更多配置訊息請参考：https://artalk.js.org
-  # Artalk comments system
-  # More info see: https://artalk.js.org
   # artalk:
   #   site: "默認網站"
-  #   placeholder: "請文明发言，谢谢！"
+  #   placeholder: "請文明發言，谢谢！"
   #   server: #<your artalk server url>
  
   # Artalk 評論擴充程式
@@ -704,66 +685,46 @@ params:
 
   # Utterances 評論擴充程式
   # 更多配置訊息請参考：https://utteranc.es
-  # Utterances comments system
-  # For more information: https://utteranc.es
   # utterances:
   #   # Github 資料庫網址，格式：用戶名/資料庫名稱
-  #   # Github repository owner and name
   #   repo: username/repo-name
-  #   # 问題標題的模式，可選值：pathname | url | title | og:title
-  #   # Available values: pathname | url | title | og:title
+  #   # 問題標題的模式，可選值：pathname | url | title | og:title
   #   issueTerm: pathname
-  #   # 问題的標籤分類
-  #   # Label flag for Github issues
+  #   # 問題的標籤分類
   #   label: comments
   #   # 主題可選值： github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
-  #   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
   #   theme: preferred-color-scheme
 
   # Giscus 評論擴充程式
   # 更多配置訊息請参考：https://giscus.app
-  # Giscus comments system
-  # For more information: https://giscus.app
   giscus:
     # Github 資料庫網址，格式：用戶名/資料庫名稱
-    # Github repository owner and name
     repo: username/repo-name
     # Giscus 生成的資料庫 Id
-    # Generate repository Id from Giscus
     repoId: #<repo-id>
-    # 讨论区的分類名稱
-    # Github discussions category
+    # 討論區的分類名稱
     category: Comments
-    # 讨论区分類 ID
-    # Generate category Id from Giscus
+    # 討論區分類 ID
     categoryId: #<category-id>
-    # 帖子上的反應將會顯示在評論前
-    # The reactions for post will be shown before the comments
+    # 貼文上的反應將會顯示在評論前
     reactions: false
-    # 將元數据定期被发送到父頁面（被嵌入的頁面或控制台，用於调试）
-    # Metadata will be sent periodically to the parent window
+    # 將元數據定期被發送到父頁面（被嵌入的頁面或控制台，用於調試）
     emit: false
     # 評論輸入框的位置，可選值： top | bottom
-    # Aavilable value: top | bottom
-    # 讨论区帖子標題，可選值： pathname | url | title | og:title | 自定義
-    # Available values: pathname | url | title | og:title | custom
+    # 討論區貼文標題，可選值： pathname | url | title | og:title | 自定義
     mapping: title
     # 評論輸入框的位置，可選值： top | bottom
-    # Aavilable value: top | bottom
     inputPosition: top
     # 主題可選值： light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | transparent_dark | preferred_color_scheme
-    # Available values: light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | transparent_dark | preferred_color_scheme
     theme: preferred_color_scheme
 
 
   # ---------------------------------------------------------------
-  # 文章小组件和分享服务設定
-  # Post Widgets & Content Sharing Services
+  # 文章小组件和分享服務設定
   # ---------------------------------------------------------------
 
   # TODO
-  # 文章评級功能（暂未支持）
-  # Star rating support to each article.
+  # 文章評級功能（暫未支持）
   # To get your ID visit https://widgetpack.com
   rating:
     enable: false
@@ -772,38 +733,29 @@ params:
 
   # AddThis文章分享功能
   # 更多訊息及配置請参考：https://www.addthis.com
-  # AddThis Share. 
-  # See: https://www.addthis.com
   addThisId: #<Your addthis> 
 
 
   # ---------------------------------------------------------------
-  # 網站统計功能
-  # Statistics and Analytics
+  # 網站統計功能
   # ---------------------------------------------------------------
 
   analytics:
-    # 51La 網站统計
+    # 51La 網站統計
     # 更多訊息請参考：https://invite.51.la/1NUfGTS1?target=V6
-    # 51La Analytics
-    # See: https://invite.51.la/1NUfGTS1?target=V6 
     #laId: #<anaytics_id> 
-    # 百度统計
-    # Baidu Analytics
+    # 百度統計
     #baidu: #<anaytics_id>
-    # 谷歌统計
-    # Google Analytics
+    # Google統計
     #google: #<anaytics_id>
-    # 不蒜子统計
-    # Show Views / Visitors of the website / page with busuanzi.
+    # 不蒜子統計
     # For more information: http://ibruce.info/2015/04/04/busuanzi/
     busuanzi:
       visitorsIcon: fa fa-user
       viewsIcon: fa fa-eye
 
   # ---------------------------------------------------------------
-  # 内容搜索服务
-  # Search Services
+  # 内容搜索服務
   # ---------------------------------------------------------------
 
   # Algolia Search
@@ -815,40 +767,32 @@ params:
     indexName: #<algolia index name>
     hits:
       perPage: 10
-    # 索引生成内容长度字數限制
-    # Index generation content length word count limit.
+    # 索引生成内容長度字數限制
     limit: 1000
 
   # 本地搜索
   # Local Search
   localSearch:
     # 是否開啟搜索功能
-    # Enable search function
     enable: true
     # 搜索索引文件路徑
-    # Indexes file path for search
     path: /searchindexes.xml
     # 是立即搜索當輸入關键字時，可選值： auto | manual
     # If auto, trigger search by changing input.
     # If manual, trigger search by pressing enter key or search button.
     trigger: auto
     # 顯示頭部的搜索记錄，-1 表示顯示所有搜索結果
-    # Show top n results per article, show all results by setting to -1
     topNPerArticle: -1
     # 將 html 字符串转換為可讀字符串
-    # Unescape html strings to the readable one.
     unescape: false
-    # 頁面加载時是否要重新载入索引文件
-    # Preload the search data when the page loads.
+    # 頁面加載時是否要重新載入索引文件
     preload: false
-    # 索引生成内容长度字數限制
-    # Index generation content length word count limit.
+    # 索引生成内容長度字數限制
     limit: 1000
 
 
   # ---------------------------------------------------------------
-  # 在線聊天服务
-  # Chat Services
+  # 在線聊天服務
   # ---------------------------------------------------------------
 
   # A button to open designated chat widget in sidebar.
@@ -912,11 +856,9 @@ params:
 
   # ---------------------------------------------------------------
   # 動畫效果設定
-  # Animation Settings
   # ---------------------------------------------------------------
 
   # 通過 Animate.css 實現對整站的動畫效果
-  # Use Animate.css to animate everything.
   # For more information: https://animate.style
   motion:
     enable: true
@@ -928,7 +870,6 @@ params:
       postBody: fadeInDown
       collHeader: fadeInLeft
       # 側邊樣效果 只有在 Pisces | Gemini 模式下才支持
-      # Only for Pisces | Gemini.
       sidebar: fadeInUp
 
   # TODO
@@ -955,8 +896,7 @@ params:
 
 
   # ---------------------------------------------------------------
-  # CDN 服务（暫時只支持 unpkg 和 cndjs）
-  # CDN Settings
+  # CDN 服務（暫時只支持 unpkg 和 cndjs）
   # ---------------------------------------------------------------
 
   vendors:
