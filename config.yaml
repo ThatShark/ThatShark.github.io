@@ -305,7 +305,7 @@ params:
   # 網站底部設定
   # ---------------------------------------------------------------
   footer:
-    # 啟動谷歌翻譯功能
+    # 啟動Google翻譯功能
     translate: false
     # 網站開始年份，默認為當下時間的年份
     since: 2023
@@ -316,7 +316,7 @@ params:
       name: fa fa-heart
       # 開啟圖標動畫效果
       animated: true
-      # 使用16進制設定圖標的顏色
+      # 使用16進位制設定圖標的顏色
       color: "#ff0000"
 
     # 版權訊息，如不設定將會使用 `author` 變數
@@ -397,7 +397,7 @@ params:
     # 是否開啟捐贈按鈕，開啟后將在每个文章頁面底部顯示
     enable: false
     # 是否開啟捐贈方式的動畫效果
-    animation: true
+    animation: false
     # 捐贈訊息的描述，支持 HTML 語法
     comment: '<i class="fa-solid fa-mug-hot"></i>請我喝杯咖啡吧 ヾ(^▽^*)))'
     # 捐贈方式
