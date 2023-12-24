@@ -394,7 +394,7 @@ params:
 
   # 捐贈訊息設定
   rewardSets:
-    # 是否開啟捐贈按鈕，開啟后將在每個文章頁面底部顯示
+    # 是否開啟捐贈按鈕，開啟後將在每個文章頁面底部顯示
     enable: false
     # 是否開啟捐贈方式的動畫效果
     animation: false
