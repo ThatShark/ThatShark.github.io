@@ -6,8 +6,8 @@ title: Shark Hub
 theme: hugo-theme-next
 
 # 網站默認的語言和程式
-defaultContentLanguage: zh-cn
-languageCode: zh-CN
+defaultContentLanguage: zh-tw
+languageCode: zh-TW
 # 是否包含中文，日語，韓文
 hasCJKLanguage: true
 
